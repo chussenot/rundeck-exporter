@@ -75,7 +75,7 @@ dev-release-master: build
 # Go project release management
 # https://goreleaser.com/
 dep-install-goreleaser:
-	ggo get github.com/goreleaser/goreleaser
+	go get github.com/goreleaser/goreleaser
 
 # GHR
 # GitHub releaser
